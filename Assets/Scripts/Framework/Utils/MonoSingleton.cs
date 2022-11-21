@@ -1,12 +1,15 @@
-// Unityµ¥Àı
+ï»¿using UnityEngine;
 
-using UnityEngine;
+/// <summary>
+/// åŠŸèƒ½ï¼šUnityå•ä¾‹
+/// </summary>
 
 namespace ZFramework
 {
     public class MonoSingleton<T> : MonoBehaviour where T : Component
     {
         private static T instance = null;
+
         public static T Instance
         {
             get

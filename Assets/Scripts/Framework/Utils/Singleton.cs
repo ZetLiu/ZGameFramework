@@ -1,4 +1,6 @@
-// µ¥ÀıÀà
+ï»¿/// <summary>
+/// åŠŸèƒ½ï¼šå•ä¾‹ç±»
+/// </summary>
 
 namespace ZFramework
 {
@@ -13,7 +15,7 @@ namespace ZFramework
             {
                 if (instance == null)
                 {
-                    // ±£Ö¤µ¥ÀıÏß³Ì°²È«
+                    // ä¿è¯å•ä¾‹çº¿ç¨‹å®‰å…¨
                     lock (mutex)
                     {
                         if (instance == null)
