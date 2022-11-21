@@ -41,5 +41,7 @@ namespace ZFramework
                 GameObject.Destroy(this.gameObject);
             }
         }
+
+        public virtual void Init() { }
     }
 }

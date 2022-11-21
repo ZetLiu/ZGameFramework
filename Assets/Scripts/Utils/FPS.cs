@@ -49,7 +49,7 @@ namespace ZFramework
 
         void OnGUI()
         {
-            GUI.Label(new Rect(0, Screen.height - 20, 200, 200), "FPS:" + m_fFpsNum.ToString("f2"), m_kStyle);
+            GUI.Label(new Rect(5, Screen.height - 20, 200, 200), "FPS:" + m_fFpsNum.ToString("f2"), m_kStyle);
         }
     }
 }

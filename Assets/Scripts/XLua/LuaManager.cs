@@ -11,8 +11,9 @@ namespace ZFramework
             base.Awake();
         }
 
-        public void Init()
+        public override void Init()
         {
+            base.Init();
         }
     }
 }

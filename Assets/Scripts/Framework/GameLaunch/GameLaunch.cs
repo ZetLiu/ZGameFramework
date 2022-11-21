@@ -12,5 +12,8 @@ public class GameLaunch : MonoBehaviour
     void Start()
     {
         LuaManager.Instance.Init();
+#if UNITY_EDITOR
+        FPS.Instance.Init();
+#endif
     }
 }
